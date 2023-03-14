@@ -34,7 +34,7 @@ export const Subheader = style({
   textAlign: "center",
   color: globalTheme.color.gray2,
   marginTop: "6px",
-  marginBottom: "0",
+  marginBottom: "5px",
 });
 
 export const BoardTextStyle = style({
@@ -49,6 +49,6 @@ export const InnerHeading = style({
   fontSize: globalTheme.font.size.small,
   fontWeight: globalTheme.font.weight.medium,
   color: globalTheme.color.header,
-  marginTop: 10,
+  marginTop: 6,
   marginBottom: 0,
 });

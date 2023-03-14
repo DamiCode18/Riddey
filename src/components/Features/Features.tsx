@@ -14,7 +14,7 @@ interface FeatureProps {
 }
 export default function Features({ icon, text1, text2, feat }: FeatureProps) {
   return (
-    <section className={Flex}>
+    <div className={Flex}>
       <img src={icon} alt="logo" />
       <p className={FeatureStyle}>
         <span className={Feat}>{feat}</span>
@@ -22,6 +22,6 @@ export default function Features({ icon, text1, text2, feat }: FeatureProps) {
           {text1} <br /> {text2}
         </span>
       </p>
-    </section>
+    </div>
   );
 }
