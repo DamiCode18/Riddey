@@ -19,7 +19,7 @@ const ProgressBar = (props: any) => {
     width: `${completed}%`,
     backgroundColor: bgcolor,
     borderRadius: "inherit",
-    transition: "width .5s ease-in-out",
+    transition: "width .2s ease-in-out",
     textAlign: "right",
   };
 
