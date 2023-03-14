@@ -5,6 +5,7 @@ export const FeatureStyle = style({
   marginLeft: "10px",
   fontSize: "12px",
   width: "200px",
+  lineHeight: "16px",
   fontWeight: globalTheme.font.weight.normal,
 });
 
@@ -14,5 +15,5 @@ export const Feat = style({
 });
 
 export const LightGray = style({
-  color: globalTheme.color.gray2,
+  color: globalTheme.color.gray3,
 });

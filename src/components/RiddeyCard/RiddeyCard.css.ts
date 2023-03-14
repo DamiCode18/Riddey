@@ -21,7 +21,7 @@ export const Header = style({
   fontStyle: "normal",
   textAlign: "center",
   width: "280px",
-  color: "#3C4043",
+  color: globalTheme.color.header,
   marginTop: "14px",
   marginBottom: "0",
 });
@@ -41,6 +41,7 @@ export const BoardTextStyle = style({
   color: globalTheme.color.button,
   fontSize: "12px",
   marginBottom: "5px",
+  marginTop: "8px",
   fontWeight: "700",
 });
 
@@ -48,6 +49,6 @@ export const InnerHeading = style({
   fontSize: "14px",
   fontWeight: "700",
   color: globalTheme.color.header,
-  marginTop: 15,
+  marginTop: 10,
   marginBottom: 0,
 });

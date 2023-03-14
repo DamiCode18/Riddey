@@ -20,9 +20,11 @@ export const globalTheme = createGlobalTheme(":root", {
     header: "#3C4043",
     gray1: "#242628",
     gray2: "#636669",
+    gray3: "#8A8C8E",
     buttonHover: "#B55147",
     buttonActive: "#883D35",
     white: "#FFFFFF",
+    progress: "#ebecec",
   },
   font: {
     size: {

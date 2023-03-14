@@ -1,4 +1,5 @@
 import React from "react";
+import { globalTheme } from "../../global.css";
 
 const ProgressBar = (props: any) => {
   const { bgcolor, completed } = props;
@@ -6,7 +7,7 @@ const ProgressBar = (props: any) => {
   const containerStyles = {
     height: 4,
     width: "200px",
-    backgroundColor: "#e0e0de",
+    backgroundColor: globalTheme.color.progress,
     borderRadius: 50,
     marginLeft: 50,
     marginRight: 50,

@@ -8,7 +8,6 @@ export const ButtonStyle = style({
   fontSize: globalTheme.font.size.small,
   color: globalTheme.color.white,
   padding: "11px 16px",
-  gap: "10px",
   fontWeight: globalTheme.font.weight.medium,
   fontStyle: "normal",
   border: "none",
