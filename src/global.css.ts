@@ -28,9 +28,11 @@ export const globalTheme = createGlobalTheme(":root", {
   },
   font: {
     size: {
+      xSmall: "12px",
       small: "14px",
       medium: "16px",
       large: "18px",
+      larger: "20px",
     },
     weight: {
       normal: "400",

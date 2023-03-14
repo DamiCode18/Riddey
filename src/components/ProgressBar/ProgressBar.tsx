@@ -11,7 +11,7 @@ const ProgressBar = (props: any) => {
     borderRadius: 50,
     marginLeft: 50,
     marginRight: 50,
-    marginBottom: 20
+    marginBottom: 20,
   };
 
   const fillerStyles: any = {
@@ -19,7 +19,7 @@ const ProgressBar = (props: any) => {
     width: `${completed}%`,
     backgroundColor: bgcolor,
     borderRadius: "inherit",
-     transition: 'width .5s ease-in-out',
+    transition: "width .5s ease-in-out",
     textAlign: "right",
   };
 

@@ -11,7 +11,7 @@ export const ButtonStyle = style({
   fontWeight: globalTheme.font.weight.medium,
   fontStyle: "normal",
   border: "none",
-  marginTop: "10px",
+  marginTop: "8px",
   ":hover": {
     background: globalTheme.color.buttonHover,
     cursor: "pointer",
@@ -24,5 +24,6 @@ export const ButtonStyle = style({
     opacity: "0.4",
     transitionDuration: ".2s",
     cursor: "not-allowed",
+    pointerEvents: "none",
   },
 });

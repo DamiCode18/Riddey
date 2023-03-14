@@ -1,18 +1,19 @@
-import React from 'react'
-import { ButtonStyle } from './Button.css'
+import React from "react";
+import { ButtonStyle } from "./Button.css";
 
 interface ButtonProps {
-    boarduse: number;
-    setBoardUse: React.Dispatch<React.SetStateAction<number>>
+  boarduse: number;
+  value: string;
+  setBoardUse: React.Dispatch<React.SetStateAction<number>>;
 }
-export default function Button({boarduse, setBoardUse}: ButtonProps) {
+export default function Button({ boarduse, setBoardUse, value }: ButtonProps) {
   return (
-        <button
-        onClick={() => setBoardUse(boarduse + 1)}
-        disabled={boarduse === 10}
-        className={ButtonStyle}
-      >
-        Add New Board
-      </button>
-  )
+    <button
+      onClick={() => boarduse < 10 && setBoardUse(boarduse + 1)}
+      disabled={boarduse === 10}
+      className={ButtonStyle}
+    >
+      {value}
+    </button>
+  );
 }

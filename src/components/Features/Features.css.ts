@@ -3,7 +3,7 @@ import { globalTheme } from "../../global.css";
 
 export const FeatureStyle = style({
   marginLeft: "10px",
-  fontSize: "12px",
+  fontSize: globalTheme.font.size.xSmall,
   width: "200px",
   lineHeight: "16px",
   fontWeight: globalTheme.font.weight.normal,
