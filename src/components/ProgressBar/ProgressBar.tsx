@@ -1,7 +1,12 @@
 import React from "react";
 import { globalTheme } from "../../global.css";
 
-const ProgressBar = (props: any) => {
+
+interface ProgressBarProps {
+  bgcolor: string;
+  completed: number;
+}
+const ProgressBar = (props: ProgressBarProps) => {
   const { bgcolor, completed } = props;
 
   const containerStyles = {
@@ -14,7 +19,7 @@ const ProgressBar = (props: any) => {
     marginBottom: 20,
   };
 
-  const fillerStyles: any = {
+  const fillerStyles: React.CSSProperties = {
     height: "100%",
     width: `${completed}%`,
     backgroundColor: bgcolor,
