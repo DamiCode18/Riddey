@@ -1,5 +1,5 @@
 import React from 'react'
-import { ButtonStyle } from '../style.css';
+import { ButtonStyle } from './Button.css'
 
 interface ButtonProps {
     boarduse: number;
